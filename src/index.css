@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, NotoColorEmojiLimited, Segoe UI Emoji, Segoe UI Symbol;
+  margin: 0;
+  background-image: linear-gradient(90deg, #eee, #eee);
+  overflow-x: hidden;
+}
+
+.self-container {
+  max-width: 1600px;
+  margin: 100px auto;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 500;
+}
+
+.text-color-bright-green {
+  color: rgb(3, 204, 59)
+}
+
+.text-color-bright-grey {
+  color: rgb(82, 82, 82);
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.padding-5 {
+  padding-left: 0.5rem;
+}
+
+.width-pro-35 {
+  width: 35%;
+}
+
+.width-pro-48 {
+  width: 48.3333%;
+}

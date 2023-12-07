@@ -1,0 +1,15 @@
+.users-container {
+    max-width: 1600px;
+    margin: 50px auto 50px;
+    gap: 24px;
+}
+
+.loved {
+    max-width: 1600px;
+    margin: 50px auto 50px;
+    gap: 24px;
+}
+
+.loved-number {
+    color: rgb(128, 54, 255);
+}

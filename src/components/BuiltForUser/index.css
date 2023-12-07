@@ -1,0 +1,41 @@
+.why-choose-us {
+    padding: 6px 16px;
+    border-radius: 8px;
+    background: rgb(250, 250, 250);
+    border: 2px solid rgb(128, 54, 255);
+    color: rgb(128, 54, 255);
+    font-size: 13px;
+}
+
+.built-for-user-subtilte {
+    max-width: 417px;
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.new {
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+    background: rgb(239, 230, 255);
+    color: rgb(96, 4, 255);
+    font-size: 9px;
+    font-weight: 500;
+    height: 16px;
+}
+
+.multiple-type-support {
+    background: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.built-feature-container {
+    border: 1px solid rgb(230, 230, 230);
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.built-feature-background {
+    background: rgb(245, 245, 245); border-bottom: 1px solid rgb(230, 230, 230);
+}

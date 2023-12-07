@@ -1,0 +1,22 @@
+.afforai-translate {
+    max-width: 1600px;
+    margin: 128px auto 160px;
+}
+
+.say-goodbye {
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.translate-comment {
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.me-3 {
+    margin-right: 1rem !important;
+}
