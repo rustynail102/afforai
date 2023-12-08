@@ -2,10 +2,10 @@ import AppSumo from "assets/img/icons/appsumo.png";
 import LapTopLanding3 from "assets/img/icons/laptop-landing-3.png";
 import LapTopLanding1 from "assets/img/icons/laptop-landing-1.png";
 import LeftArrow from "assets/svg/LeftArrow.svg";
-import AfforaiFeature from "./AfforaiFeature";
+import { AfforaiFeature } from "./AfforaiFeature";
 import "./index.css";
 
-const SecondBrain = () => {
+export const SecondBrain = () => {
   return (
     <div className="container-fluid container">
       <div className="d-flex flex-column align-items-center brain-container">
@@ -75,5 +75,3 @@ const SecondBrain = () => {
     </div>
   );
 };
-
-export default SecondBrain;

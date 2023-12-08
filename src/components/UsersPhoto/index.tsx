@@ -1,7 +1,7 @@
 import LapTopLanding1 from "assets/img/icons/laptop-landing-2.png";
 import "./index.css";
 
-const UserPhoto = () => {
+export const UserPhoto = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center users-container">
       <div className="text-center loved">
@@ -18,5 +18,3 @@ const UserPhoto = () => {
     </div>
   );
 };
-
-export default UserPhoto;

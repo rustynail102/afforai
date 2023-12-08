@@ -1,7 +1,7 @@
 import LapToPLanding13 from "assets/img/icons/laptop-landing-13.png";
 import "./index.css";
 
-const MultipleLangSupported = () => {
+export const MultipleLangSupported = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -10,10 +10,10 @@ const MultipleLangSupported = () => {
             <div className="d-inline-flex justify-content-center align-items-center feature-box">
               Multiple Language Supported
             </div>
-            <div className="pe-3 pe-md-5 me-md-4 regardless">
+            <div className="font-36 font-weight-500 pe-3 pe-md-5 me-md-4 regardless">
               Regardless of where you are from, Afforai is for you
             </div>
-            <div className="pe-4 pe-md-5 me-md-3 text-color-bright-grey font-weight-400 font-16">
+            <div className="pe-4 pe-md-5 me-md-3 font-weight-400 font-16">
               We support more than 100 Languages, meaning you can seamlessly use
               our services regardless of where you are from. Our Cross Language
               Querying feature also allows flawless translation of documents.
@@ -32,5 +32,3 @@ const MultipleLangSupported = () => {
     </div>
   );
 };
-
-export default MultipleLangSupported;

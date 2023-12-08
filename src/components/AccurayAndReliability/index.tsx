@@ -3,7 +3,7 @@ import LaptopLanding18 from "assets/img/icons/laptop-landing-18.png";
 import LaptopLanding19 from "assets/img/icons/laptop-landing-19.png";
 import "./index.css";
 
-const AccurayAndReliability = () => {
+export const AccurayAndReliability = () => {
   return (
     <div className="container-fluid self-container animation">
       <div className="row">
@@ -33,11 +33,11 @@ const AccurayAndReliability = () => {
             </div>
             <div className="d-flex flex-column px-3 pt-2 pb-4">
               <div className="d-inline-flex align-items-center gap-2">
-                <span className="font-16 text-color-bright-grey font-weight-500">
+                <span className="font-16 font-weight-500">
                   Trusted by users all over the World
                 </span>
               </div>
-              <div className="font-12 text-color-bright-grey">
+              <div className="font-12">
                 Afforai is used all around the World, saving thousands of people
                 time and money with our speed &amp; accuracy.
               </div>
@@ -56,11 +56,11 @@ const AccurayAndReliability = () => {
             </div>
             <div className="d-flex flex-column px-3 pt-2 pb-4">
               <div className="d-inline-flex align-items-center gap-2">
-                <span className="font-16 text-color-bright-grey font-weight-500">
+                <span className="font-16  font-weight-500">
                   Trusted by users all over the World
                 </span>
               </div>
-              <div className="font-12 text-color-bright-grey">
+              <div className="font-12 ">
                 Afforai is used all around the World, saving thousands of people
                 time and money with our speed &amp; accuracy.
               </div>
@@ -79,11 +79,11 @@ const AccurayAndReliability = () => {
             </div>
             <div className="d-flex flex-column px-3 pt-2 pb-4">
               <div className="d-inline-flex align-items-center gap-2">
-                <span className="font-16 text-color-bright-grey font-weight-500">
+                <span className="font-16  font-weight-500">
                   Trusted by users all over the World
                 </span>
               </div>
-              <div className="font-12 text-color-bright-grey">
+              <div className="font-12 ">
                 Afforai is used all around the World, saving thousands of people
                 time and money with our speed &amp; accuracy.
               </div>
@@ -94,5 +94,3 @@ const AccurayAndReliability = () => {
     </div>
   );
 };
-
-export default AccurayAndReliability;

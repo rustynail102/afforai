@@ -1,6 +1,6 @@
 import CheckMark from "assets/svg/CheckMark.svg";
 
-const AfforaiFeature: React.FC<{ feature: string }> = ({ feature }) => {
+export const AfforaiFeature: React.FC<{ feature: string }> = ({ feature }) => {
   return (
     <div className="d-flex align-items-center afforai-feature">
       <img src={CheckMark} alt="CheckMark" />
@@ -8,5 +8,3 @@ const AfforaiFeature: React.FC<{ feature: string }> = ({ feature }) => {
     </div>
   );
 };
-
-export default AfforaiFeature;

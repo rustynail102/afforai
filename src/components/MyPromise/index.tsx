@@ -1,7 +1,7 @@
 import LapToPLanding20 from "assets/img/icons/laptop-landing-20.png";
 import "./index.css";
 
-const MyPromise = () => {
+export const MyPromise = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -10,10 +10,10 @@ const MyPromise = () => {
             <div className="d-inline-flex justify-content-center align-items-center feature-box">
               My promise to you
             </div>
-            <div className="pe-3 pe-md-5 me-md-4 regardless">
+            <div className="font-36 pe-3 pe-md-5 me-md-4 font-weight-500 regardless">
               100% money back guarantee if you are not satisfied
             </div>
-            <div className="pe-4 pe-md-5 me-md-3 text-color-bright-grey font-weight-400 font-16">
+            <div className="pe-4 pe-md-5 me-md-3 font-weight-400 font-16">
               We crafted Afforai with total belief in our ability to make a
               chatbot that is not only powerful and reliable, but able to
               maximise your satisfaction as a user. This is why we have
@@ -34,5 +34,3 @@ const MyPromise = () => {
     </div>
   );
 };
-
-export default MyPromise;

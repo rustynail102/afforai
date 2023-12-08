@@ -1,0 +1,42 @@
+.footer-container {
+    max-width: 1264px;
+    padding: 32px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.flex-b-360 {
+    flex-basis: 360px;
+}
+
+.flex-b-160 {
+    flex-basis: 160px;
+}
+
+.afforai {
+    color: rgb(17, 17, 17);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+    height: 24px;
+}
+
+.w-195 {
+    width: 195px;
+}
+
+.h-42 {
+    height: 42px;
+}
+.m-t-2 {
+    margin-top: 20px;
+}
+
+.text-grey {
+    color: rgb(82, 82, 82);
+}
+
+a {
+    text-decoration: none !important;
+}

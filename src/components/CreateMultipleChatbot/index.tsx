@@ -1,7 +1,7 @@
 import LaptopLanding11 from "assets/img/icons/laptop-landing-11.png";
 import "./index.css";
 
-const CreateMultipleChatbot = () => {
+export const CreateMultipleChatbot = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -48,5 +48,3 @@ const CreateMultipleChatbot = () => {
     </div>
   );
 };
-
-export default CreateMultipleChatbot;

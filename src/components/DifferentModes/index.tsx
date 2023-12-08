@@ -3,9 +3,9 @@ import FastForward from "assets/img/icons/fast-forward.svg";
 import PowerOff from "assets/img/icons/power-off.svg";
 import GoogleMode from "assets/img/icons/search-plus.svg";
 
-import "./index.css"
+import "./index.css";
 
-const DifferentModes = () => {
+export const DifferentModes = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -32,11 +32,7 @@ const DifferentModes = () => {
             </div>
             <div className="d-flex flex-column gap-4 pe-md-5 me-md-3">
               <div className="d-flex gap-3 align-items-top">
-                <img
-                  src={FastForward}
-                  alt="fast mode"
-                  height="24"
-                />
+                <img src={FastForward} alt="fast mode" height="24" />
                 <div className="d-flex flex-column gap-8">
                   <div className="d-inline-flex align-items-center gap-3">
                     <span className="font-16 font-weight-500 text-color-bright-purple">
@@ -55,14 +51,12 @@ const DifferentModes = () => {
                 </div>
               </div>
               <div className="d-flex gap-3 align-items-top">
-                <img
-                  src={PowerOff}
-                  alt="powerful mode"
-                  height="24"
-                />
+                <img src={PowerOff} alt="powerful mode" height="24" />
                 <div className="d-flex flex-column gap-8">
                   <div className="d-inline-flex align-items-center gap-3">
-                    <span className="font-16 text-color-bright-purple font-weight-500"></span>
+                    <span className="font-16 text-color-bright-purple font-weight-500">
+                      Powerful Mode
+                    </span>
                     <div className="d-flex align-items-center credit">
                       <span>4 credits</span>
                     </div>
@@ -76,14 +70,10 @@ const DifferentModes = () => {
                 </div>
               </div>
               <div className="d-flex gap-3 align-items-top">
-                <img
-                  src={GoogleMode}
-                  alt="google search mode"
-                  height="24"
-                />
+                <img src={GoogleMode} alt="google search mode" height="24" />
                 <div className="d-flex flex-column gap-8">
                   <div className="d-inline-flex align-items-center gap-3">
-                    <span className="font-14 text-color-bright-purple font-weight-500">
+                    <span className="font-16 text-color-bright-purple font-weight-500">
                       Google Mode
                     </span>
                     <div className="d-flex align-items-center credit">
@@ -104,5 +94,3 @@ const DifferentModes = () => {
     </div>
   );
 };
-
-export default DifferentModes;

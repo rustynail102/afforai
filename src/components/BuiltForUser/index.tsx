@@ -5,7 +5,7 @@ import LapTopLanding9 from "assets/img/icons/laptop-landing-9.png";
 import LapTopLanding10 from "assets/img/icons/laptop-landing-10.png";
 import "./index.css";
 
-const BuiltForUser = () => {
+export const BuiltForUser = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -14,7 +14,7 @@ const BuiltForUser = () => {
             <div className="d-inline-flex justify-content-center align-items-center feature-box">
               Why choose us?
             </div>
-            <div className="text-center font-weight-600">
+            <div className="text-center font-weight-600 font-36">
               Built for the user
             </div>
             <div className="text-center built-for-user-subtilte">
@@ -158,5 +158,3 @@ const BuiltForUser = () => {
     </div>
   );
 };
-
-export default BuiltForUser;

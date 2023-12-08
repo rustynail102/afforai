@@ -1,6 +1,6 @@
 import LapTopLanding14 from "assets/img/icons/laptop-landing-14.png";
 
-const GetMoreOutOfYourFiles = () => {
+export const GetMoreOutOfYourFiles = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -32,5 +32,3 @@ const GetMoreOutOfYourFiles = () => {
     </div>
   );
 };
-
-export default GetMoreOutOfYourFiles;

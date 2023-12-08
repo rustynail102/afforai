@@ -1,0 +1,57 @@
+.users-say-subtitle {
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.users-say-card {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.users-say-card-inline {
+    width: 600px;
+    height: 266px;
+    padding: 32px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.users-say {
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.user {
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+}
+
+.user-link {
+    background: rgb(246, 232, 229);
+    border: 1px solid rgb(255, 60, 5);
+}
+
+.product-hunt {
+    color: rgb(255, 58, 2);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.w-32 {
+    width: 32px
+}
+
+.h-32 {
+    height: 32px;
+}
+
+.m-t-4 {
+    margin-top: 40px !important;
+}
+
+a {
+    text-decoration: none;
+}

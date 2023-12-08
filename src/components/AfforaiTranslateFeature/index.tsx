@@ -3,7 +3,7 @@ import LaptopLanding4 from "assets/img/icons/laptop-landing-4.png";
 
 import "./index.css";
 
-const AfforaiTranslateFeature = () => {
+export const AfforaiTranslateFeature = () => {
   return (
     <div className="container-fluid afforai-translate">
       <div className="row">
@@ -77,5 +77,3 @@ const AfforaiTranslateFeature = () => {
     </div>
   );
 };
-
-export default AfforaiTranslateFeature;

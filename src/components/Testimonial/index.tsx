@@ -1,7 +1,7 @@
 import LapTopLanding16 from "assets/img/icons/laptop-landing-16.png";
 import "./index.css";
 
-const Testimonial = () => {
+export const Testimonial = () => {
   return (
     <div className="container-fluid self-container">
       <div className="d-flex flex-column relative overflow-hidden">
@@ -29,5 +29,3 @@ const Testimonial = () => {
     </div>
   );
 };
-
-export default Testimonial;

@@ -1,7 +1,7 @@
 import LapTopLanding15 from "assets/img/icons/laptop-landing-15.png";
 import "./index.css";
 
-const SeamlessIntegration = () => {
+export const SeamlessIntegration = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -36,5 +36,3 @@ const SeamlessIntegration = () => {
     </div>
   );
 };
-
-export default SeamlessIntegration;

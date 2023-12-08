@@ -1,7 +1,7 @@
 import LapToplanding5 from "assets/img/icons/laptop-landing-5.png";
 import "./index.css";
 
-const SaveFromStress = () => {
+export const SaveFromStress = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -37,5 +37,3 @@ const SaveFromStress = () => {
     </div>
   );
 };
-
-export default SaveFromStress;
