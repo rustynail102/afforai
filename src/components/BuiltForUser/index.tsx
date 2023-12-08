@@ -1,8 +1,8 @@
-import LapTopLanding6 from "assets/img/icons/laptop-landing-6.png";
-import LapTopLanding7 from "assets/img/icons/laptop-landing-7.png";
-import LapTopLanding8 from "assets/img/icons/laptop-landing-8.png";
-import LapTopLanding9 from "assets/img/icons/laptop-landing-9.png";
-import LapTopLanding10 from "assets/img/icons/laptop-landing-10.png";
+import LapTopLanding6 from "../../assets/img/icons/laptop-landing-6.png";
+import LapTopLanding7 from "../../assets/img/icons/laptop-landing-7.png";
+import LapTopLanding8 from "../../assets/img/icons/laptop-landing-8.png";
+import LapTopLanding9 from "../../assets/img/icons/laptop-landing-9.png";
+import LapTopLanding10 from "../../assets/img/icons/laptop-landing-10.png";
 import "./index.css";
 
 export const BuiltForUser = () => {

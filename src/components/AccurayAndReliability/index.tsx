@@ -1,6 +1,6 @@
-import LaptopLanding17 from "assets/img/icons/laptop-landing-17.png";
-import LaptopLanding18 from "assets/img/icons/laptop-landing-18.png";
-import LaptopLanding19 from "assets/img/icons/laptop-landing-19.png";
+import LaptopLanding17 from "../../assets/img/icons/laptop-landing-17.png";
+import LaptopLanding18 from "../../assets/img/icons/laptop-landing-18.png";
+import LaptopLanding19 from "../../assets/img/icons/laptop-landing-19.png";
 import "./index.css";
 
 export const AccurayAndReliability = () => {

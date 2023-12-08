@@ -1,4 +1,4 @@
-import LapToPLanding20 from "assets/img/icons/laptop-landing-20.png";
+import LapToPLanding20 from "../../assets/img/icons/laptop-landing-20.png";
 import "./index.css";
 
 export const MyPromise = () => {

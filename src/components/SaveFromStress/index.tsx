@@ -1,5 +1,5 @@
-import LapToplanding5 from "assets/img/icons/laptop-landing-5.png";
-import Mobilelanding5 from "assets/img/icons/mobile-landing-5.png";
+import LapToplanding5 from "../../assets/img/icons/laptop-landing-5.png";
+import Mobilelanding5 from "../../assets/img/icons/mobile-landing-5.png";
 import "./index.css";
 
 export const SaveFromStress = () => {

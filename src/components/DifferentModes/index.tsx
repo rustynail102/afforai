@@ -1,7 +1,7 @@
-import LapTopLanding12 from "assets/img/icons/laptop-landing-12.png";
-import FastForward from "assets/img/icons/fast-forward.svg";
-import PowerOff from "assets/img/icons/power-off.svg";
-import GoogleMode from "assets/img/icons/search-plus.svg";
+import LapTopLanding12 from "../../assets/img/icons/laptop-landing-12.png";
+import FastForward from "../../assets/img/icons/fast-forward.svg";
+import PowerOff from "../../assets/img/icons/power-off.svg";
+import GoogleMode from "../../assets/img/icons/search-plus.svg";
 
 import "./index.css";
 

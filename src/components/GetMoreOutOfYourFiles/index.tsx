@@ -1,4 +1,4 @@
-import LapTopLanding14 from "assets/img/icons/laptop-landing-14.png";
+import LapTopLanding14 from "../../assets/img/icons/laptop-landing-14.png";
 
 export const GetMoreOutOfYourFiles = () => {
   return (

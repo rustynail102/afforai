@@ -1,5 +1,5 @@
-import LapToPLanding13 from "assets/img/icons/laptop-landing-13.png";
-import MobileLanding3 from "assets/img/icons/mobile-landing-13.png";
+import LapToPLanding13 from "../../assets/img/icons/laptop-landing-13.png";
+import MobileLanding3 from "../../assets/img/icons/mobile-landing-13.png";
 import "./index.css";
 
 export const MultipleLangSupported = () => {

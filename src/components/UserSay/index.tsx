@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
-import PhReviews from "assets/img/icons/ph-review.webp";
-import User from "assets/img/icons/user.webp";
-import ProductHunt from "assets/img/icons/producthunt.svg";
+import PhReviews from "../../assets/img/icons/ph-review.webp";
+import User from "../../assets/img/icons/user.webp";
+import ProductHunt from "../../assets/img/icons/producthunt.svg";
 import "./index.css";
 
 export const UserSay = () => {

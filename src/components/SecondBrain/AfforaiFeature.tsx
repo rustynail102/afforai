@@ -1,4 +1,4 @@
-import CheckMark from "assets/svg/CheckMark.svg";
+import CheckMark from "../../assets/svg/CheckMark.svg";
 
 export const AfforaiFeature: React.FC<{ feature: string }> = ({ feature }) => {
   return (
