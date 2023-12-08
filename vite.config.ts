@@ -14,9 +14,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ["**/*.svg"],
   },
-  // build: {
-  //   rollupOptions: {
-  //     external: ["prop-types"],
-  //   },
-  // },
 });
