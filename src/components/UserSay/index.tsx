@@ -6,7 +6,7 @@ import "./index.css";
 
 export const UserSay = () => {
   return (
-    <div className="container-fluid self-container">
+    <div className="container-fluid user-say-contain">
       <div className="row">
         <div className="d-flex flex-column justify-content-center col">
           <div className="d-flex flex-column align-items-center container">
@@ -32,7 +32,7 @@ export const UserSay = () => {
         </div>
       </div>
       <div className="row">
-        <div className="m-t-4 m-x-5">
+        <div className="m-t-4">
           <Marquee>
             <div className="users-say-card">
               <div className="d-flex flex-column rounded-3 users-say-card-inline">
