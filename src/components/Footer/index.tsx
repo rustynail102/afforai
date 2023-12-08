@@ -1,5 +1,5 @@
-import LogoNewViolte from "../../assets/img/icons/logo-new-violet.webp";
-import Sputnikatx from "../../assets/img/icons/sputnikatx.png";
+import LogoNewViolte from "assets/img/icons/logo-new-violet.webp";
+import Sputnikatx from "assets/img/icons/sputnikatx.png";
 import "./index.css";
 
 export const Footer = () => {

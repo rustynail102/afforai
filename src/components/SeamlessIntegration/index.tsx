@@ -1,4 +1,4 @@
-import LapTopLanding15 from "../../assets/img/icons/laptop-landing-15.png";
+import LapTopLanding15 from "assets/img/icons/laptop-landing-15.png";
 import "./index.css";
 
 export const SeamlessIntegration = () => {

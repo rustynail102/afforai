@@ -1,4 +1,4 @@
-import LogoNewViolet from "../../assets/img/icons/logo-new-violet.webp";
+import LogoNewViolet from "assets/img/icons/logo-new-violet.webp";
 import "./index.css";
 
 export const Header = () => {

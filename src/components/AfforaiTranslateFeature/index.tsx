@@ -1,5 +1,5 @@
-import CheckMark from "../../assets/img/icons/check-circle.svg";
-import LaptopLanding4 from "../../assets/img/icons/laptop-landing-4.png";
+import CheckMark from "assets/img/icons/check-circle.svg";
+import LaptopLanding4 from "assets/img/icons/laptop-landing-4.png";
 
 import "./index.css";
 

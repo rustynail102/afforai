@@ -1,4 +1,4 @@
-import LapTopLanding16 from "../../assets/img/icons/laptop-landing-16.png";
+import LapTopLanding16 from "assets/img/icons/laptop-landing-16.png";
 import "./index.css";
 
 export const Testimonial = () => {

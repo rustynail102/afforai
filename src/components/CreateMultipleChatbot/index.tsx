@@ -1,5 +1,5 @@
-import LaptopLanding11 from "../../assets/img/icons/laptop-landing-11.png";
-import mobileLanding11 from "../../assets/img/icons/mobile-landing-11.png";
+import LaptopLanding11 from "assets/img/icons/laptop-landing-11.png";
+import mobileLanding11 from "assets/img/icons/mobile-landing-11.png";
 import "./index.css";
 
 export const CreateMultipleChatbot = () => {

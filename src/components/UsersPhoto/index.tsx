@@ -1,4 +1,4 @@
-import LapTopLanding1 from "../../assets/img/icons/laptop-landing-2.png";
+import LapTopLanding1 from "assets/img/icons/laptop-landing-2.png";
 import "./index.css";
 
 export const UserPhoto = () => {
