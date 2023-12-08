@@ -12,7 +12,7 @@ const Header = () => {
                             <div className="logo">Afforai</div>
                         </a>
                         <div className="d-md-flex d-none justify-content-center align-items-center navbar-nav">
-                            <a href="https://afforai.getrewardful.com/signup" target="_blank" data-rr-ui-event-key="https://afforai.getrewardful.com/signup" className="mx-2 nav-link" >
+                            <a href="#" target="_blank" data-rr-ui-event-key="#" className="mx-2 nav-link" >
                                 <span className="menu">Affiliate</span>
                             </a>
                             <a href="/pricing" data-rr-ui-event-key="/pricing" className="mx-2 nav-link">
@@ -21,7 +21,7 @@ const Header = () => {
                             <a href="/#testimonial" data-rr-ui-event-key="/#testimonial" className="mx-2 nav-link">
                                 <span className="menu">Testimonials</span>
                             </a>
-                            <a href="https://help.afforai.com/" target="_blank" data-rr-ui-event-key="https://help.afforai.com/" className="mx-2 nav-link" >
+                            <a href="#" target="_blank" data-rr-ui-event-key="#" className="mx-2 nav-link" >
                                 <span className="menu">Help Center</span>
                             </a>
                         </div>
