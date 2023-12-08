@@ -23,6 +23,10 @@ body {
   font-size: 16px;
 }
 
+.font-30 {
+  font-size: 30px;
+}
+
 .font-12 {
   font-size: 12px;
 }
@@ -47,12 +51,12 @@ body {
   color: rgb(82, 82, 82);
 }
 
-.text-color-bright-grey {
+.text-color-bright-purple {
   color: rgb(58, 2, 153);
 }
 
-.text-color-light-grey {
-  color: rgb(38, 2, 102);
+.gap-16 {
+  gap: 16px;
 }
 
 .gap-24 {
@@ -78,4 +82,28 @@ body {
   border: 2px solid rgb(128, 54, 255);
   color: rgb(128, 54, 255);
   font-size: 13px;
+}
+
+.m-b-4 {
+  margin-bottom: 16px;
+}
+
+.m-b-12 {
+  margin-bottom: 48px;
+}
+
+.m-x-8 {
+  margin: 0 16px;
+}
+
+.p-x-5 {
+  padding: 0 60px !important;
+}
+
+.m-t-4 {
+  margin-top: 40px !important;
+}
+
+.m-x-5 {
+  margin: 0 60px;
 }

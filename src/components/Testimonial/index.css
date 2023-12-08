@@ -6,8 +6,8 @@
     overflow: hidden;
 }
 
-.padding-b-240 {
-    padding-bottom: 240px;
+.padding-b-100 {
+    padding-bottom: 100px;
 }
 
 .z-2 {
@@ -41,4 +41,23 @@
     width: 100%;
     border-radius: 28px;
     overflow: hidden;
+}
+
+.new-btn.violet-fill:active,
+.new-btn.violet-fill:hover {
+    background: linear-gradient(135deg, #6004ff, #1a004b 23.95%, #370097 60.11%, #1a004b);
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    color: #fff !important;
+}
+
+@media (max-width: 639px) {
+    .self-container {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 640px) {
+    .self-container {
+        padding: 60px !important;
+    }
 }

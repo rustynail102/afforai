@@ -4,6 +4,7 @@ import LapTopLanding1 from "assets/img/icons/laptop-landing-1.png";
 import LeftArrow from "assets/svg/LeftArrow.svg";
 import { AfforaiFeature } from "./AfforaiFeature";
 import "./index.css";
+import Marquee from "react-fast-marquee";
 
 export const SecondBrain = () => {
   return (
@@ -34,28 +35,34 @@ export const SecondBrain = () => {
           lengthy research documents to stacks of dry compliance requirements
           and extract the key findings you need.
         </div>
-        <div className="d-flex justify-content-between afforai-feature-box">
-          <AfforaiFeature feature="Summarize Key Findings" />
-          <AfforaiFeature feature="Summarize Key Findings" />
-          <AfforaiFeature feature="Summarize Key Findings" />
-          <AfforaiFeature feature="Summarize Key Findings" />
+        <div className="d-none d-lg-block">
+          <div className="d-flex justify-content-between afforai-feature-box">
+            <AfforaiFeature feature="Summarize Key Findings" />
+            <AfforaiFeature feature="Compare Between Documents" />
+            <AfforaiFeature feature="Search For Answers" />
+            <AfforaiFeature feature="Ask in Any Language" />
+          </div>
+        </div>
+        <div className="d-block d-lg-none">
+          <div className="d-flex justify-content-between afforai-feature-box">
+            <Marquee>
+              <AfforaiFeature feature="Summarize Key Findings" />
+              <AfforaiFeature feature="Compare Between Documents" />
+              <AfforaiFeature feature="Search For Answers" />
+              <AfforaiFeature feature="Ask in Any Language" />
+            </Marquee>
+          </div>
         </div>
         <div className="d-flex flex-shrink-1 align-content-center flex-row gap-4">
-          <button
-            type="button"
-            className="new-btn violet-fill btn btn-primary"
-          >
+          <button type="button" className="new-btn violet-fill btn btn-primary">
             Try for free
           </button>
-          <button
-            type="button"
-            className="new-btn gray btn btn-primary"
-          >
+          <button type="button" className="new-btn gray btn btn-primary">
             View pricing
           </button>
         </div>
       </div>
-      <div className="laptop-landing-1">
+      <div className="laptop-landing-1 d-none d-md-block">
         <img
           src={LapTopLanding1}
           className="img-fluid"
@@ -63,7 +70,7 @@ export const SecondBrain = () => {
           data-xblocker="passed"
         />
       </div>
-      <div className="laptop-landing-3">
+      <div className="laptop-landing-3 d-none d-md-block">
         <img
           src={LapTopLanding3}
           alt="laptoplanding3"

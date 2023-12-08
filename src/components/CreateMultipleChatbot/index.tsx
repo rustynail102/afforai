@@ -1,4 +1,5 @@
 import LaptopLanding11 from "assets/img/icons/laptop-landing-11.png";
+import mobileLanding11 from "assets/img/icons/mobile-landing-11.png";
 import "./index.css";
 
 export const CreateMultipleChatbot = () => {
@@ -38,8 +39,14 @@ export const CreateMultipleChatbot = () => {
         </div>
         <div className="mt-5 mt-md-0 col-md-5">
           <img
+            src={mobileLanding11}
+            className="img-fluid d-block d-sm-none"
+            alt="Afforai masters the documents you upload"
+            data-xblocker="passed"
+          />
+          <img
             src={LaptopLanding11}
-            className="img-fluid"
+            className="img-fluid d-none d-sm-block"
             alt="Afforai masters the documents you upload"
             data-xblocker="passed"
           />

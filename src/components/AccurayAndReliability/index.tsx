@@ -6,7 +6,7 @@ import "./index.css";
 export const AccurayAndReliability = () => {
   return (
     <div className="container-fluid self-container animation">
-      <div className="row">
+      <div className="row m-b-12">
         <div className="d-flex flex-column justify-content-center col">
           <div className="d-flex flex-column align-items-center container gap-24">
             <div className="text-center unquestionable">
@@ -21,7 +21,7 @@ export const AccurayAndReliability = () => {
         </div>
       </div>
       <div className="row img-box">
-        <div className="col-md-4">
+        <div className="col-md-4 accuray-border m-b-4">
           <div className="d-flex flex-column rounded-4 h-100">
             <div className="img-background">
               <img
@@ -44,7 +44,7 @@ export const AccurayAndReliability = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 accuray-border m-b-4">
           <div className="d-flex flex-column rounded-4 h-100">
             <div className="img-background">
               <img
@@ -67,7 +67,7 @@ export const AccurayAndReliability = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 accuray-border m-b-4">
           <div className="d-flex flex-column rounded-4 h-100">
             <div className="img-background">
               <img

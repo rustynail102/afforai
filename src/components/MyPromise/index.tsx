@@ -5,12 +5,12 @@ export const MyPromise = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
-        <div className="d-flex flex-column justify-content-center col-md-5 offset-md-1">
+        <div className="d-flex flex-column justify-content-center col-md-5 offset-md-1 m-b-12">
           <div className="d-flex flex-column align-items-start container gap-24">
             <div className="d-inline-flex justify-content-center align-items-center feature-box">
               My promise to you
             </div>
-            <div className="font-36 pe-3 pe-md-5 me-md-4 font-weight-500 regardless">
+            <div className="font-30 pe-3 pe-md-5 me-md-4 font-weight-500 regardless leading-130">
               100% money back guarantee if you are not satisfied
             </div>
             <div className="pe-4 pe-md-5 me-md-3 font-weight-400 font-16">

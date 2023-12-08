@@ -5,7 +5,7 @@ export const Testimonial = () => {
   return (
     <div className="container-fluid self-container">
       <div className="d-flex flex-column relative overflow-hidden">
-        <div className="padding-b-240 z-2">
+        <div className="padding-b-100 z-2">
           <div className="d-flex flex-column justify-content-center">
             <div className="d-flex flex-column align-items-center container gap-24">
               <div className="text-center start">Start saving time today!</div>
@@ -23,7 +23,7 @@ export const Testimonial = () => {
           </div>
         </div>
         <div className="img-bg-pos">
-          <img src={LapTopLanding16} className="img-fluid" width="100%" />
+          <img src={LapTopLanding16} className="img-fluid"/>
         </div>
       </div>
     </div>

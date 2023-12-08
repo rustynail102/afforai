@@ -1,10 +1,11 @@
 import LapToplanding5 from "assets/img/icons/laptop-landing-5.png";
+import Mobilelanding5 from "assets/img/icons/mobile-landing-5.png";
 import "./index.css";
 
 export const SaveFromStress = () => {
   return (
     <div className="container-fluid self-container">
-      <div className="row">
+      <div className="row m-b-12">
         <div className="d-flex flex-column justify-content-center col">
           <div className="d-flex flex-column align-items-center container gap-24">
             <div>
@@ -27,8 +28,14 @@ export const SaveFromStress = () => {
       <div className="row">
         <div className="stress-unleash-img-box">
           <img
+            src={Mobilelanding5}
+            className="img-fluid d-block d-sm-none"
+            width="100%"
+            data-xblocker="passed"
+          />
+          <img
             src={LapToplanding5}
-            className="img-fluid"
+            className="img-fluid d-none d-sm-block"
             width="100%"
             data-xblocker="passed"
           />

@@ -22,7 +22,7 @@ export const UserSay = () => {
                 width="170px"
               />
             </a>
-            <div className="text-center mb-2 font-weight-600 font-36">
+            <div className="text-center mb-2 font-weight-600 font-30">
               See what our users say
             </div>
             <div className="text-center mb-2 users-say-subtitle">
@@ -32,7 +32,7 @@ export const UserSay = () => {
         </div>
       </div>
       <div className="row">
-        <div className="m-t-4">
+        <div className="m-t-4 m-x-5">
           <Marquee>
             <div className="users-say-card">
               <div className="d-flex flex-column rounded-3 users-say-card-inline">

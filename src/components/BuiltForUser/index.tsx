@@ -14,7 +14,7 @@ export const BuiltForUser = () => {
             <div className="d-inline-flex justify-content-center align-items-center feature-box">
               Why choose us?
             </div>
-            <div className="text-center font-weight-600 font-36">
+            <div className="text-center font-weight-600 font-30">
               Built for the user
             </div>
             <div className="text-center built-for-user-subtilte">

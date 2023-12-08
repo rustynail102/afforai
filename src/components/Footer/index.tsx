@@ -98,9 +98,9 @@ export const Footer = () => {
                 <div className="text-grey font-12">Medium Blog</div>
               </a>
             </div>
-            <div className=" d-flex flex-column flex-b-160 gap-16">
+            <div className="d-flex flex-column flex-b-160 gap-16">
               <div className="font-weight-500 font-16">Language</div>
-              <div>English</div>
+              <div className="text-color-bright-purple font-12">English</div>
               <div className="text-grey font-12">Vietnamese</div>
             </div>
           </div>

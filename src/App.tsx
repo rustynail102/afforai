@@ -14,6 +14,7 @@ import { MyPromise } from "components/MyPromise";
 import { Testimonial } from "components/Testimonial";
 import { UserSay } from "./components/UserSay";
 import { Footer } from "./components/Footer";
+import { FAQ } from "./components/FAQ";
 import "./App.css";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <UserSay />
       <MyPromise />
       <Testimonial />
+      <FAQ />
       <Footer />
     </div>
   );
