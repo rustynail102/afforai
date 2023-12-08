@@ -1,7 +1,7 @@
-import LapToplanding5 from "assets/img/icons/laptop-landing-5.png";
+import LapTopLanding15 from "assets/img/icons/laptop-landing-15.png";
 import "./index.css";
 
-const SaveFromStress = () => {
+const SeamlessIntegration = () => {
   return (
     <div className="container-fluid self-container">
       <div className="row">
@@ -9,25 +9,24 @@ const SaveFromStress = () => {
           <div className="d-flex flex-column align-items-center container gap-24">
             <div>
               <div className="d-inline-flex justify-content-center align-items-center feature-box">
-                10x your productivity
+                Seamless Integrations - Coming Soon
               </div>
             </div>
-            <div className="text-center stress-unleash-title">
-              Save yourself from stress &amp; streamline your workflow
+            <div className="text-center upload-files">
+              Upload Files directly from Google Drive, One Drive &amp; Dropbox
             </div>
-            <div className="text-center stress-unleash-subtilte">
-              The average worker spends 9 hours per week looking through &amp;
-              gathering information from thick stacks of documents. With
-              Afforai, you can save yourself 8 hours per week (plus a lot of
-              headaches).
+            <div className="text-center upload-files-subtitle">
+              Afforai allows you to upload files directly from Google Drive, One
+              Drive &amp; Dropbox, meaning your experience will be smooth
+              sailing regardless of your preferred{" "}
             </div>
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="stress-unleash-img-box">
+        <div className="laptop-15">
           <img
-            src={LapToplanding5}
+            src={LapTopLanding15}
             className="img-fluid"
             width="100%"
             data-xblocker="passed"
@@ -38,4 +37,4 @@ const SaveFromStress = () => {
   );
 };
 
-export default SaveFromStress;
+export default SeamlessIntegration;

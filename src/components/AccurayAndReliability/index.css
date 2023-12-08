@@ -1,0 +1,24 @@
+.unquestionable {
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.unquestionable-subtitle {
+    max-width: 500px;
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.img-box {
+    padding-left: 8.3333%;
+    padding-right: 8.3333%;
+}
+
+.img-background {
+    background: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(230, 230, 230);
+}

@@ -1,8 +1,8 @@
-import LapTopLanding6 from "assets/img/icons/laptop-landing-6.png"
-import LapTopLanding7 from "assets/img/icons/laptop-landing-7.png"
-import LapTopLanding8 from "assets/img/icons/laptop-landing-8.png"
-import LapTopLanding9 from "assets/img/icons/laptop-landing-9.png"
-import LapTopLanding10 from "assets/img/icons/laptop-landing-10.png"
+import LapTopLanding6 from "assets/img/icons/laptop-landing-6.png";
+import LapTopLanding7 from "assets/img/icons/laptop-landing-7.png";
+import LapTopLanding8 from "assets/img/icons/laptop-landing-8.png";
+import LapTopLanding9 from "assets/img/icons/laptop-landing-9.png";
+import LapTopLanding10 from "assets/img/icons/laptop-landing-10.png";
 import "./index.css";
 
 const BuiltForUser = () => {
@@ -11,7 +11,7 @@ const BuiltForUser = () => {
       <div className="row">
         <div className="d-flex flex-column justify-content-center col">
           <div className="d-flex flex-column align-items-center container gap-24">
-            <div className="d-inline-flex justify-content-center align-items-center why-choose-us">
+            <div className="d-inline-flex justify-content-center align-items-center feature-box">
               Why choose us?
             </div>
             <div className="text-center font-weight-600">

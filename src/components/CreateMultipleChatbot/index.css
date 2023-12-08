@@ -1,21 +1,19 @@
-.stress-unleash-title {
-    max-width: 556px;
+.most-versatile-title {
     color: rgb(34, 34, 34);
     font-weight: 600;
     font-size: 36px;
     line-height: 130%;
 }
 
-.stress-unleash-subtilte {
-    max-width: 556px;
+.most-versatile-subtitle {
     color: rgb(82, 82, 82);
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
 }
 
-.stress-unleash-img-box {
-    margin: 0px auto;
-    width: 75%;
-    max-width: 1440px;
+.get-started {
+    font-size: 16px;
+    padding: 6px 28px;
+    border-radius: 12px;
 }

@@ -1,21 +1,22 @@
-.stress-unleash-title {
-    max-width: 556px;
+.upload-files {
+    max-width: 636px;
     color: rgb(34, 34, 34);
     font-weight: 600;
     font-size: 36px;
     line-height: 130%;
 }
 
-.stress-unleash-subtilte {
-    max-width: 556px;
+.upload-files-subtitle {
+    max-width: 636px;
     color: rgb(82, 82, 82);
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
 }
 
-.stress-unleash-img-box {
+.laptop-15 {
     margin: 0px auto;
-    width: 75%;
-    max-width: 1440px;
+    margin-top: 50px !important;
+    width: 75% !important; 
+    max-width: 640px !important;
 }

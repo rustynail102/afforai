@@ -1,0 +1,44 @@
+.relative {
+    position: relative;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.padding-b-240 {
+    padding-bottom: 240px;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.start {
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.sub-start {
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.get-started {
+    font-size: 16px;
+    padding: 6px 28px;
+    border-radius: 12px;
+}
+
+.img-bg-pos {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    width: 100%;
+    border-radius: 28px;
+    overflow: hidden;
+}
