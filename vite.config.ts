@@ -6,12 +6,17 @@ import { resolve } from "path";
 export default defineConfig({
   resolve: {
     alias: {
-      "assets": resolve(__dirname, "./src/assets"),
-      "components": resolve(__dirname, "./src/components"),
+      assets: resolve(__dirname, "./src/assets"),
+      components: resolve(__dirname, "./src/components"),
     },
   },
   plugins: [react()],
   optimizeDeps: {
-    include: ['**/*.svg']
-  }
+    include: ["**/*.svg"],
+  },
+  build: {
+    rollupOptions: {
+      external: ["prop-types"],
+    },
+  },
 });
