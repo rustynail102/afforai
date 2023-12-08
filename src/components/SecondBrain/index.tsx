@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 
 export const SecondBrain = () => {
   return (
-    <div className="container-fluid container">
+    <div className="container-fluid container relative">
       <div className="d-flex flex-column align-items-center brain-container">
         <div className="d-flex flex-column title-container">
           <div className="d-inline-flex align-items-center app-sumo">

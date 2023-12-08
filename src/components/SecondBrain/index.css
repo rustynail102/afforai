@@ -105,10 +105,12 @@
 
 .laptop-landing-3 {
     position: absolute;
+    top: 400px;
+    width: 100%;
     z-index: -1;
-    bottom: -100px;
     border-radius: 28px;
     overflow: hidden;
+    opacity: 40%;
 }
 
 .img-thumbnail {
