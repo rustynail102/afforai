@@ -3,8 +3,8 @@ import LapTopLanding3 from "assets/img/icons/laptop-landing-3.png";
 import LapTopLanding1 from "assets/img/icons/laptop-landing-1.png";
 import LeftArrow from "assets/svg/LeftArrow.svg";
 import { AfforaiFeature } from "./AfforaiFeature";
-import "./index.css";
 import Marquee from "react-fast-marquee";
+import "./index.css";
 
 export const SecondBrain = () => {
   return (

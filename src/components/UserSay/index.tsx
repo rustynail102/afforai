@@ -3,9 +3,7 @@ import { Grid, Typography } from "@mui/material";
 import PhReview from "assets/img/icons/ph-review.webp";
 import Producthunt from "assets/img/icons/producthunt.svg";
 import User from "assets/img/icons/user.webp";
-import { UserType } from "src/constants";
-import { users1 } from "src/constants";
-import { users2 } from "src/constants";
+import { UserType, users1, users2 } from "constants/index";
 import "./index.css";
 
 const render = (user: UserType) => (
