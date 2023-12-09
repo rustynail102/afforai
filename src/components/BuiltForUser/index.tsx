@@ -14,7 +14,7 @@ export const BuiltForUser = () => {
             <div className="d-inline-flex justify-content-center align-items-center feature-box">
               Why choose us?
             </div>
-            <div className="text-center font-weight-600 font-30">
+            <div className="text-center font-weight-600 font-36">
               Built for the user
             </div>
             <div className="text-center built-for-user-subtilte">
@@ -53,7 +53,7 @@ export const BuiltForUser = () => {
           </div>
         </div>
         <div className="d-flex col-md-6 padding-5 width-pro-48">
-          <div className="d-flex flex-column rounded-4">
+          <div className="d-flex flex-column rounded-4 built-feature-container">
             <div className="multiple-type-support">
               <img
                 src={LapTopLanding7}

@@ -1,5 +1,5 @@
-import LogoNewViolte from "assets/img/icons/logo-new-violet.webp";
-import Sputnikatx from "assets/img/icons/sputnikatx.png";
+import LogoNewViolte from "../../assets/img/icons/logo-new-violet.webp";
+import Sputnikatx from "../../assets/img/icons/sputnikatx.png";
 import "./index.css";
 
 export const Footer = () => {
@@ -47,7 +47,7 @@ export const Footer = () => {
                 />
               </div>
             </div>
-            <div className=" d-flex flex-column gap-16 flex-b-160">
+            <div className="d-flex align-items-center flex-column gap-16 flex-b-160">
               <div className="font-16 font-weight-500">Company</div>
               <a href="/our_story">
                 <div className="text-grey font-12">Our Story</div>
@@ -68,7 +68,7 @@ export const Footer = () => {
                 <div className="text-grey font-12">Contact Us</div>
               </a>
             </div>
-            <div className=" d-flex flex-column flex-b-160 gap-16">
+            <div className="d-flex align-items-center flex-column flex-b-160 gap-16">
               <div className="font-weight-500 font-16">Resources</div>
               <a href="https://help.afforai.com/" target="_blank">
                 <div className="text-grey font-12">Help Center</div>
@@ -83,7 +83,7 @@ export const Footer = () => {
                 <div className="font-12 text-grey">Privacy Policy</div>
               </a>
             </div>
-            <div className=" d-flex flex-column flex-b-160 gap-16">
+            <div className="d-flex align-items-center flex-column flex-b-160 gap-16">
               <div className="font-16 font-weight-500">Follow Us</div>
               <a href="https://www.facebook.com/groups/afforai" target="_blank">
                 <div className="text-grey font-12">Facebook Group</div>
@@ -98,7 +98,7 @@ export const Footer = () => {
                 <div className="text-grey font-12">Medium Blog</div>
               </a>
             </div>
-            <div className="d-flex flex-column flex-b-160 gap-16">
+            <div className="d-flex align-items-center flex-column flex-b-160 gap-16">
               <div className="font-weight-500 font-16">Language</div>
               <div className="text-color-bright-purple font-12">English</div>
               <div className="text-grey font-12">Vietnamese</div>

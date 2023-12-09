@@ -15,7 +15,7 @@ export const SeamlessIntegration = () => {
             <div className="text-center upload-files">
               Upload Files directly from Google Drive, One Drive &amp; Dropbox
             </div>
-            <div className="text-center upload-files-subtitle">
+            <div className="text-center upload-files-subtitle font-weight-600">
               Afforai allows you to upload files directly from Google Drive, One
               Drive &amp; Dropbox, meaning your experience will be smooth
               sailing regardless of your preferred{" "}

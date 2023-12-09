@@ -5,7 +5,6 @@
 body {
   font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, NotoColorEmojiLimited, Segoe UI Emoji, Segoe UI Symbol;
   margin: 0;
-  background-image: linear-gradient(90deg, #eee, #eee);
   overflow-x: hidden;
 }
 
@@ -25,6 +24,10 @@ body {
 
 .font-30 {
   font-size: 30px;
+}
+
+.font-36 {
+  font-size: 36px;
 }
 
 .font-12 {
@@ -53,6 +56,10 @@ body {
 
 .text-color-bright-purple {
   color: rgb(58, 2, 153);
+}
+
+.gap-2 {
+  gap: 8px;
 }
 
 .gap-16 {

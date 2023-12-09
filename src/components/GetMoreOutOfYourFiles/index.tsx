@@ -20,7 +20,7 @@ export const GetMoreOutOfYourFiles = () => {
             <div className="pe-md-5 me-md-4 different-modes-subtitle">
               File Wizard - a game changing new feature
             </div>
-            <div className="pe-md-5 me-md-3">
+            <div className="pe-md-5 me-md-3 font-weight-600">
               Convert your files with less effort than ever. Afforai’s File
               Wizard feature allows you to transform your files, in limitless
               different ways. We can translate, summarize, or explain your

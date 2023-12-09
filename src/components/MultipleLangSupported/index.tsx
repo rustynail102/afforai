@@ -14,7 +14,7 @@ export const MultipleLangSupported = () => {
             <div className="font-30 font-weight-500 pe-3 pe-md-5 me-md-4 regardless">
               Enjoy Afforai, regardless of where you're from
             </div>
-            <div className="pe-4 pe-md-5 me-md-3 font-weight-400 font-16">
+            <div className="pe-4 pe-md-5 me-md-3 font-weight-600 font-16">
               We support more than 100 Languages, meaning you can seamlessly use
               our services regardless of where you are from. Our Cross Language
               Querying feature also allows flawless translation of documents.
